@@ -10,7 +10,7 @@ RUN     apk update \
     &&  apk add bash bind-tools busybox-extras curl \
                 iproute2 iputils jq mtr \
                 net-tools nginx openssl \
-                perl-net-telnet procps tcpdump tcptraceroute wget \
+                perl-net-telnet procps tcpdump tcptraceroute wget nmap \
     &&  mkdir /certs /docker \
     &&  chmod 700 /certs \
     &&  openssl req \
